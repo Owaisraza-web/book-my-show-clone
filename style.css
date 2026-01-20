@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+/* Top-Nav */
+
+.top-nav{
+    background: #333545;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    color: #fff;
+}
+
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 250px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo span{
+    color: #f84464;
+}
+
+.nav-left input{
+    width: 420px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.search{
+    background: white;
+    color: rgba(0, 0, 0, 0.72);
+    padding-left: 10px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 250px;
+}
+
+.city{
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.sign-in{
+    background: #f84464;
+    padding: 6px 16px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Sub-Nav */
+
+.sub-nav{
+    background: #1f2533;
+    padding: 0 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.left-menu{
+    margin-left: 250px;
+}
+
+.right-menu{
+    margin-right: 250px;
+}
+
+.sub-nav li{
+    color: #ccc;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Banner */
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.banner{
+    height: 275px;
+    background: linear-gradient(120deg,#444,#222);
+    margin: 20px 60px;
+    width: 1200px;
+    border-radius: 8px;
+    background-image: url(poster.avif);
+    background-repeat: no-repeat;
+    font-weight: 300;
+}
+
+/* Movies-Section */
+
+.container{
+    padding: 20px 60px;
+
+}
+
+.container h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #222;
+    margin-left: 280px;
+}
+
+.movie-row{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.movie-card{
+    width: 220px;
+}
+
+.poster{
+    height: 370px;
+    background: #ddd;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+#first{
+    background-image: url(rajasaab.avif);
+}
+#second{
+    background-image: url(dhurendar.avif);
+}
+#third{
+    background-image: url(projapati.avif);
+}
+#fourth{
+    background-image: url(ikkis.avif);
+}
+#fifth{
+    background-image: url(avtar.avif);
+}
+
+.movie-card h3{
+    margin: 10px 0;
+    font-size: 18px;
+    color: #222;
+    font-weight: 530;
+}
+
+.movie-card p{
+    font-size: 16px;
+    color: #666666;
+}
+
+/* Stream Image */
+.poster-2{
+    background-image: url(stream-leadin-web-collection-202210241242.avif);
+    height: 101px;
+    width: 1219px;
+    background-size: cover;
+    margin: 4rem 0;
+    
+}
+
+/* Live-Events */
+
+.poster-3{
+    height: 200px;
+    width: 200px;
+    background: #ddd;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+#first-1{
+    background-image: url(comedy-shows-collection-202211140440.avif);
+}
+
+#second-1{
+    background-image: url(amusement-parks-banner-desktop-collection-202503251132.avif);
+    
+}
+#third-1{
+    background-image: url(theatre-shows-collection-202211140440.avif);
+}
+
+#fourth-1{
+    background-image: url(icc-top-live-events-collection-202512040235.avif);
+    
+}
+#fifth-1{
+    background-image: url(kids-banner-desktop-collection-202503251132.avif);
+    
+}
+
+/* Premire */
+.main-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #2b3148;
+}
+
+.prime{
+    max-width: 1219px;
+    width: 100%;
+}
+
+.prime-img{
+    background-image: url(premiere-banner-web-collection-202208191200.avif);
+    height: 101px;
+    margin-bottom: 5rem;
+}
+
+.movie-row-2{
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    
+}
+
+.prime h2,p{
+    color: white;
+    
+}
+
+.prime p{
+    margin-bottom: 1rem;
+}
+
+.movie-row-2 .movie-card h3{
+    color: white;
+}
+.movie-row-2 .movie-card p{
+    color: white;
+}
+
+#first-2{
+    background-image: url(what.avif);
+}
+#second-2{
+    background-image: url(nuclear.avif);
+}
+#third-2{
+    background-image: url(travelers.avif);
+}
+#fourth-2{
+    background-image: url(kill.avif);
+}
+
+/* Sport and Events */
+
+#first-3{
+    background-image: url(kolkata.avif);
+}
+#second-3{
+    background-image: url(bgit.avif);
+}
+#third-3{
+    background-image: url(wiit.avif);
+}
+#fourth-3{
+    background-image: url(dayout.avif);
+}
+#fifth-3{
+    background-image: url(archery.avif);
+}
+
+#first-4{
+    background-image: url(air.avif);
+}
+#second-4{
+    background-image: url(FLOATING.avif);
+}
+#third-4{
+    background-image: url(space.avif);
+}
+#fourth-4{
+    background-image: url(birthday.avif);
+}
+#fifth-4{
+    background-image: url(karan.avif);
+}
+
+
+/* Footer */
+
+footer{
+    background: #333545;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.div{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.div span{
+    width: 48%;
+    height: 1px;
+    background: #4f4e4e;
+}
+
+.containery{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.social-links{
+    width: 100%;
+    
+}
+
+.social-link{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #333545;
+    border-radius: 50%;
+    padding: 10px;
+    background: rgba(255, 255, 255, .4);
+}
+
+.social-link:hover{
+    background: white;
+}
+
+.box{
+    width: 150px;
+    /* background-image: url(logo.svg);
+    background-repeat: no-repeat; */
+}
+
+.letter{
+    margin-bottom: 2.5rem;
+}
+
+#write{
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .4)
+}
